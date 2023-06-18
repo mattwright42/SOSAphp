@@ -1,0 +1,381 @@
+@charset "UTF-8";
+/* Scss Document */
+/* Scss Document */
+/*▼色▼*/
+/*▼幅▼*/
+/*▼文字▼*/
+/*▼WAKU系▼*/
+/*▼FLEX系▼*/
+/*▼グリッド系▼*/
+/*▼タイトル：アイコン▼*/
+/*▼基礎▼*/
+html {
+  font-size: 62.5%; }
+
+/*------↓WEBフォントの表示を読み込み終わってからにする↓------*/
+/*
+html {visibility: hidden;}
+html.wf-active,html.loading-delay {visibility: visible;}
+*/
+body {
+  font-display: swap;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-feature-settings: "palt";
+  -webkit-font-feature-settings: "palt";
+  -moz-font-feature-settings: "palt";
+  text-align: justify;
+  text-justify: inter-ideograph; }
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+body {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: 500;
+  color: #69412d;
+  letter-spacing: 0;
+  background-color: #e4e2c6;
+  background-image: url("../img/bg_main.jpg");
+  background-position: center top; }
+
+#box {
+  overflow: hidden; }
+
+/*▼基本▼*/
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6, h7, h8, h9 {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  box-shadow: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.25; }
+
+p {
+  line-height: inherit;
+  margin: 0 0 1.5em 0; }
+  p:last-child {
+    margin: 0; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0; }
+
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+ul {
+  margin: 0.5em 0 0 0;
+  padding: 0 0 0 1.5em; }
+  ul li {
+    margin: 0;
+    padding: 0 0 0.5em 0;
+    line-height: 1.5; }
+    ul li:last-child {
+      padding-bottom: 0; }
+
+ol {
+  padding: 0 0 0 2em; }
+  ol li {
+    margin: 0;
+    padding: 0 0 0.5em 1em;
+    line-height: 1.5; }
+    ol li:last-child {
+      padding-bottom: 0; }
+    ol li::marker {
+      font-weight: bold; }
+
+dl {
+  margin: 0;
+  padding: 0; }
+  dl dt {
+    margin: 0;
+    padding: 0;
+    font-weight: normal; }
+  dl dd {
+    margin: 0;
+    padding: 0;
+    font-weight: normal; }
+
+.bd_r25 {
+  border-radius: 25px; }
+
+.bd_r50 {
+  border-radius: 50px; }
+
+.li-nosp {
+  padding-left: 1.5em; }
+
+figure {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+a {
+  color: #69412d;
+  transition: 0.4s; }
+
+a:link, a:visited {
+  color: #69412d;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.5); }
+
+a:hover {
+  color: #69412d;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0); }
+
+table {
+  border-collapse: collapse; }
+  table tr th {
+    padding: 0.5em;
+    vertical-align: top;
+    background-color: #dfedf4;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    text-align: left;
+    line-height: 1.5; }
+  table tr td {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    text-align: left;
+    line-height: 1.5; }
+
+.ta-l {
+  text-align: left; }
+
+.ta-c {
+  text-align: center; }
+
+.ta-r {
+  text-align: right; }
+
+.ta-j {
+  text-align: justify; }
+
+.clear {
+  clear: both; }
+
+br.clear {
+  clear: both;
+  height: 1px;
+  width: 1px;
+  line-height: 1; }
+
+/*▼文字▼*/
+.f-got {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-style: normal;
+  font-display: swap; }
+
+.f-tit {
+  font-family: "RocknRoll One", sans-serif;
+  font-style: normal;
+  font-display: swap; }
+
+.f-str {
+  font-family: "Kiwi Maru", serif;
+  font-style: normal;
+  font-display: swap; }
+
+/*▼ディスプレイ▼*/
+.bl {
+  display: block; }
+
+.ib {
+  display: inline-block; }
+
+.non {
+  display: none; }
+
+.dis-sp-l {
+  display: none; }
+
+.dis-sp-b {
+  display: none; }
+
+.dis-sp-lb {
+  display: none; }
+
+.ib {
+  display: inline-block; }
+
+/*▼画像▼*/
+img.ov, .ov img, a img {
+  transition: 0.4s; }
+
+img.ov:hover, .ov img:hover, a:hover img {
+  opacity: 0.75; }
+
+/*▼大BOX設置▼*/
+/*▼UL/LI　INDENT*/
+/*ul {margin-block-start: 0em; margin-block-end: 0em; margin-inline-start: 0em; margin-inline-end: 0em; padding-inline-start: 0em;}*/
+/*▼404系▼*/
+.box404 {
+  margin: 0 1.5em;
+  height: calc(100vh - 400px);
+  min-height: 175px;
+  max-height: 475px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .box404 div:nth-child(1) {
+    margin-bottom: 1.5em; }
+
+/*▼入力系▼*/
+.contact input[type="text" i],
+.contact textarea#order_note,
+.contact select {
+  border: 1px solid #676767 !important;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0) !important;
+  padding: 0.25em 0.5em;
+  vertical-align: text-bottom;
+  font-size: 1.6rem !important;
+  font-weight: 300 !important;
+  font-family: "Zen Maru Gothic", sans-serif !important;
+  border: none !important; }
+  .contact input[type="text" i]::placeholder,
+  .contact textarea#order_note::placeholder,
+  .contact select::placeholder {
+    color: #c8c8c8; }
+.contact input[type="text" i] {
+  width: 100%;
+  max-width: 15em;
+  font-family: "Zen Maru Gothic", sans-serif !important;
+  border: 1px solid #676767 !important;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0) !important; }
+.contact textarea#order_note {
+  width: 100%;
+  font-family: "Zen Maru Gothic", sans-serif !important;
+  border: 1px solid #676767 !important;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0) !important; }
+.contact select {
+  padding: 0.4em 0.5em;
+  font-family: "Zen Maru Gothic", sans-serif !important;
+  border: 1px solid #676767 !important;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0) !important; }
+.contact button {
+  transition: 0.4s;
+  cursor: pointer;
+  font-family: "Zen Maru Gothic", sans-serif !important;
+  background-color: white;
+  vertical-align: 0.5em;
+  font-size: 1.6rem;
+  padding: 0.25em 0.5em;
+  border: 1px solid #676767 !important;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0) !important; }
+  .contact button:hover {
+    background-color: #ededed !important; }
+  .contact button:active {
+    background-color: white !important;
+    transition: 0s; }
+.contact input[type="submit"].submit_btn {
+  transition: 0.4;
+  margin: 0 0.25em;
+  outline: none;
+  transition: 0.4s;
+  font-size: 1.15em;
+  padding: 1.25em 1.75em;
+  background-color: #e1e1e1;
+  border: 4px solid #e1e1e1;
+  letter-spacing: 0.15em;
+  -webkit-appearance: none;
+  border-radius: 10px;
+  font-family: "Zen Maru Gothic", sans-serif !important; }
+  .contact input[type="submit"].submit_btn:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: white; }
+.contact input#request-docs, .contact input#request-docs + label, .contact input#inquiry, .contact input#inquiry + label {
+  cursor: pointer; }
+.contact input#request-docs + label {
+  margin-right: 1em; }
+
+.spacer01 {
+  margin-top: 150px; }
+
+/*---------------------------------------------------------------------------BP1920*/
+/*---------------------------------------------------------------------------BP1600*/
+/*---------------------------------------------------------------------------BP1280*/
+/*---------------------------------------------------------------------------BP1024*/
+/*---------------------------------------------------------------------------BP960*/
+/*---------------------------------------------------------------------------BP896*/
+.bd_r50 {
+  border-radius: 50px; }
+
+/*---------------------------------------------------------------------------BP768*/
+@media (max-width: 768px) {
+  body {
+    line-height: 1.7; } }
+/*---------------------------------------------------------------------------BP767*/
+@media (max-width: 767px) {
+  body {
+    line-height: 1.7; }
+
+  .bd_r50 {
+    border-radius: 25px; }
+
+  .bd_r25 {
+    border-radius: 12px; } }
+/*---------------------------------------------------------------------------BP620*/
+@media (max-width: 620px) {
+  html {
+    font-size: 54.69%; }
+
+  body {
+    background-size: 23.5% auto; }
+
+  .scroll {
+    overflow: auto;
+    white-space: nowrap;
+    position: relative;
+    margin: 0 0 2em 0; }
+
+  .scroll table {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 0 0.5em 0; }
+
+  input[type="text" i] {
+    max-width: 100%; }
+
+  .spacer01 {
+    margin-top: 75px; }
+
+  .contact input[type="text" i], .contact textarea#order_note, .contact select {
+    padding: 0.5em; } }
+/*---------------------------------------------------------------------------BP480*/

@@ -1,0 +1,313 @@
+@charset "UTF-8";
+/* Scss Document */
+/* Scss Document */
+/*▼色▼*/
+/*▼幅▼*/
+/*▼文字▼*/
+/*▼WAKU系▼*/
+/*▼FLEX系▼*/
+/*▼グリッド系▼*/
+/*▼タイトル：アイコン▼*/
+.body2 {
+  overflow: hidden; }
+
+.ctt {
+  /*overflow: hidden;*/ }
+  .ctt article {
+    margin-top: 125px; }
+    .ctt article:first-of-type {
+      margin-top: 20px; }
+
+.page01 .ctt {
+  overflow: visible; }
+
+.ctt h1 .distab {
+  display: none; }
+
+.pageheader {
+  text-align: center;
+  background-position: top center;
+  background-size: auto 68px;
+  background-repeat: repeat-x;
+  position: relative; }
+  .pageheader::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 68px;
+    display: block;
+    width: 100%;
+    height: 12px;
+    background-position: top center;
+    background-size: auto 12px;
+    background-repeat: repeat-x; }
+  .pageheader img {
+    width: clamp(100px, 100%, 1000px); }
+
+.cat_a .pageheader {
+  background-image: url("../img/tit/pt_a.png"); }
+  .cat_a .pageheader::before {
+    content: '';
+    background-image: url("../img/tit/yama_a.png"); }
+
+.cat_b .pageheader {
+  background-image: url("../img/tit/pt_b.png"); }
+  .cat_b .pageheader::before {
+    content: '';
+    background-image: url("../img/tit/yama_b.png"); }
+
+.cat_c .pageheader {
+  background-image: url("../img/tit/pt_c.png"); }
+  .cat_c .pageheader::before {
+    content: '';
+    background-image: url("../img/tit/yama_c.png"); }
+
+.cat_d .pageheader {
+  background-image: url("../img/tit/pt_d.png"); }
+  .cat_d .pageheader::before {
+    content: '';
+    background-image: url("../img/tit/yama_d.png"); }
+
+.cat_e .pageheader {
+  background-image: url("../img/tit/pt_e.png"); }
+  .cat_e .pageheader::before {
+    content: '';
+    background-image: url("../img/tit/yama_e.png"); }
+
+article h2 {
+  width: clamp(100px, 100%, 1000px);
+  margin: 0 auto;
+  text-align: center;
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 3.2rem;
+  line-height: 1;
+  aspect-ratio: 1000 / 130;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.page02 article h2 {
+  background-image: url("../img/tit/ttl_m_02.png"); }
+
+.page03 article h2 {
+  background-image: url("../img/tit/ttl_m_03.png"); }
+
+.page04 article h2 {
+  background-image: url("../img/tit/ttl_m_04.png"); }
+
+.page05 article h2 {
+  background-image: url("../img/tit/ttl_m_05.png"); }
+
+.page06 article h2 {
+  background-image: url("../img/tit/ttl_m_06.png"); }
+
+.page07 article h2 {
+  background-image: url("../img/tit/ttl_m_07.png"); }
+
+.page08 article h2 {
+  background-image: url("../img/tit/ttl_m_08.png"); }
+
+.page09 article h2 {
+  background-image: url("../img/tit/ttl_m_09.png"); }
+
+.page10 article h2 {
+  background-image: url("../img/tit/ttl_m_10.png"); }
+
+.page11 article h2 {
+  background-image: url("../img/tit/ttl_m_11.png"); }
+
+.page12 article h2 {
+  background-image: url("../img/tit/ttl_m_12.png"); }
+
+.page13 article h2 {
+  background-image: url("../img/tit/ttl_m_13.png"); }
+
+.page14 article h2 {
+  background-image: url("../img/tit/ttl_m_14.png"); }
+
+.page15 article h2 {
+  background-image: url("../img/tit/ttl_m_15.png"); }
+
+.page16 article h2 {
+  background-image: url("../img/tit/ttl_m_16.png"); }
+
+.page17 article h2 {
+  background-image: url("../img/tit/ttl_m_17.png"); }
+
+.page18 article h2 {
+  background-image: url("../img/tit/ttl_m_18.png"); }
+
+article h3 {
+  position: relative;
+  padding: 15px 0 0 65px;
+  width: clamp(100px, 100%, 1000px);
+  margin: 7.5rem auto 0;
+  display: inline-block;
+  height: 112px;
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 2.8rem;
+  line-height: 1;
+  background-repeat: no-repeat;
+  background-position: top left 15px;
+  background-size: auto 100%;
+  background-image: url("../img/tit/ttl_s_bg.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  article h3::after {
+    content: '';
+    display: block;
+    width: clamp(100px, 100%, 320px);
+    height: 9px;
+    margin-top: 12px; }
+  article h3::before {
+    opacity: 0.5;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    left: 700px;
+    width: 100vw;
+    height: 26px;
+    background-position: bottom left;
+    background-repeat: repeat-x; }
+
+article h3 + div {
+  margin-top: 1rem !important; }
+
+.cat_a article h3::after {
+  background-image: url("../img/tit/ttl_s_line_a.png"); }
+.cat_a article h3::before {
+  background-image: url("../img/side_line_a.png"); }
+
+.cat_b article h3::after {
+  background-image: url("../img/tit/ttl_s_line_b.png"); }
+.cat_b article h3::before {
+  background-image: url("../img/side_line_b.png"); }
+
+.cat_c article h3::after {
+  background-image: url("../img/tit/ttl_s_line_c.png"); }
+.cat_c article h3::before {
+  background-image: url("../img/side_line_c.png"); }
+
+.cat_d article h3::after {
+  background-image: url("../img/tit/ttl_s_line_d.png"); }
+.cat_d article h3::before {
+  background-image: url("../img/side_line_d.png"); }
+
+.cat_e article h3::after {
+  background-image: url("../img/tit/ttl_s_line_e.png"); }
+.cat_e article h3::before {
+  background-image: url("../img/side_line_e.png"); }
+
+/*---------------------------------------------------------------------------BP1920*/
+/*---------------------------------------------------------------------------BP1600*/
+/*---------------------------------------------------------------------------BP1280*/
+/*---------------------------------------------------------------------------BP1120　SPECIAL-BP*/
+@media (max-width: 1120px) {
+  .btn_totop {
+    bottom: 35px;
+    right: 2.5%; } }
+/*---------------------------------------------------------------------------BP1024*/
+/*---------------------------------------------------------------------------BP960*/
+/*---------------------------------------------------------------------------BP896*/
+/*---------------------------------------------------------------------------BP768*/
+@media (max-width: 768px) {
+  article h2 {
+    font-size: 2.8rem;
+    text-align: left;
+    padding-left: 7.5%; }
+
+  article h3 {
+    padding: 0 7.5% 0 7.5%;
+    font-size: 2.6rem; }
+
+  .ctt h1 {
+    padding-top: 35px; }
+    .ctt h1 .distab {
+      display: block; }
+    .ctt h1 .dispc {
+      display: none; }
+
+  article h2 {
+    aspect-ratio: 640 / 130; }
+
+  .page02 article h2 {
+    background-image: url("../img/tit/ttl_m_sp02.png"); }
+
+  .page03 article h2 {
+    background-image: url("../img/tit/ttl_m_sp03.png"); }
+
+  .page04 article h2 {
+    background-image: url("../img/tit/ttl_m_sp04.png"); }
+
+  .page05 article h2 {
+    background-image: url("../img/tit/ttl_m_sp05.png"); }
+
+  .page06 article h2 {
+    background-image: url("../img/tit/ttl_m_sp06.png"); }
+
+  .page07 article h2 {
+    background-image: url("../img/tit/ttl_m_sp07.png"); }
+
+  .page08 article h2 {
+    background-image: url("../img/tit/ttl_m_sp08.png"); }
+
+  .page09 article h2 {
+    background-image: url("../img/tit/ttl_m_sp09.png"); }
+
+  .page10 article h2 {
+    background-image: url("../img/tit/ttl_m_sp10.png"); }
+
+  .page11 article h2 {
+    background-image: url("../img/tit/ttl_m_sp11.png"); }
+
+  .page12 article h2 {
+    background-image: url("../img/tit/ttl_m_sp12.png"); }
+
+  .page13 article h2 {
+    background-image: url("../img/tit/ttl_m_sp13.png"); }
+
+  .page14 article h2 {
+    background-image: url("../img/tit/ttl_m_sp14.png"); }
+
+  .page15 article h2 {
+    background-image: url("../img/tit/ttl_m_sp15.png"); }
+
+  .page16 article h2 {
+    background-image: url("../img/tit/ttl_m_sp16.png"); }
+
+  .page17 article h2 {
+    background-image: url("../img/tit/ttl_m_sp17.png"); }
+
+  .page18 article h2 {
+    background-image: url("../img/tit/ttl_m_sp18.png"); }
+
+  article h3 {
+    background-position: top left 3px; } }
+/*---------------------------------------------------------------------------BP620*/
+@media (max-width: 620px) {
+  article h2 {
+    font-size: 2.4rem; }
+
+  article h3 {
+    font-size: 2.4rem;
+    line-height: 1.4em; } }
+/*---------------------------------------------------------------------------BP480*/

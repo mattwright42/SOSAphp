@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* Scss Document */
+/* Scss Document */
+/*▼色▼*/
+/*▼幅▼*/
+/*▼文字▼*/
+/*▼WAKU系▼*/
+/*▼FLEX系▼*/
+/*▼グリッド系▼*/
+/*▼タイトル：アイコン▼*/
+body.top_page .to_page {
+  display: none; }
+body.top_page .menu_box02 .to_page {
+  display: -ms-grid;
+  display: grid; }
+
+.top_ctt {
+  text-align: center; }
+  .top_ctt .box {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .top_ctt .main {
+    margin: 90px 0 60px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .top_ctt .logo1 {
+    width: clamp(100px, 97.5%, 940px);
+    aspect-ratio: 940 / 500; }
+  .top_ctt .logo2 {
+    width: clamp(100px, 87.5%, 479px);
+    margin-top: 40px;
+    aspect-ratio: 479 / 72; }
+  .top_ctt .logo1 img, .top_ctt .logo2 img {
+    max-width: 100%;
+    max-height: 100%; }
+  .top_ctt .fence {
+    margin: 0; }
+
+/*---------------------------------------------------------------------------BPHHHHHH1028*/
+@media (max-height: 1028px) {
+  .top_ctt {
+    text-align: center; }
+    .top_ctt .main {
+      margin-top: calc( ( 100vh - 166px - 65px) * 0.1181 );
+      margin-bottom: calc( ( 100vh - 231px - 65px) * 0.0787 ); }
+    .top_ctt .logo1 {
+      height: calc( ( 100vh - 166px - 65px) * 0.6561 );
+      max-height: 500px;
+      max-width: 97.5%;
+      margin-left: auto;
+      margin-right: auto; }
+    .top_ctt .logo2 {
+      height: calc( ( 100vh - 166px - 65px) * 0.0944 );
+      margin-top: calc( ( 100vh - 166px - 65px) * 0.0524 );
+      max-width: 87.5%;
+      max-height: 72px;
+      margin-left: auto;
+      margin-right: auto; }
+
+  /*
+  @media (max-width: 1025px) {
+    .top_ctt .main {height: 32vh;}
+  }
+  */ }
+@media (max-height: 1028px) and (max-width: 950px) {
+  .top_ctt .main {
+    height: 60vh; } }
+@media (max-height: 1028px) and (max-width: 900px) {
+  .top_ctt .main {
+    height: 57vh; } }
+@media (max-height: 1028px) and (max-width: 850px) {
+  .top_ctt .main {
+    height: 54vh; } }
+@media (max-height: 1028px) and (max-width: 800px) {
+  .top_ctt .main {
+    height: 51vh; } }
+@media (max-height: 1028px) and (max-width: 750px) {
+  .top_ctt .main {
+    height: 49vh; } }
+@media (max-height: 1028px) and (max-width: 700px) {
+  .top_ctt .main {
+    height: 46vh; } }
+@media (max-height: 1028px) and (max-width: 650px) {
+  .top_ctt .main {
+    height: 43vh; } }
+@media (max-height: 1028px) and (max-width: 600px) {
+  .top_ctt .main {
+    height: 40vh; } }
+@media (max-height: 1028px) and (max-width: 550px) {
+  .top_ctt .main {
+    height: 36vh; } }
+@media (max-height: 1028px) and (max-width: 500px) {
+  .top_ctt .main {
+    height: 34vh; } }
+@media (max-height: 1028px) and (max-width: 450px) {
+  .top_ctt .main {
+    height: 40vh; }
+    .top_ctt .main figure.logo2 {
+      max-width: none;
+      max-height: none;
+      height: auto; } }
+/*---------------------------------------------------------------------------BP1920*/
+/*---------------------------------------------------------------------------BP1600*/
+/*---------------------------------------------------------------------------BP1280*/
+/*---------------------------------------------------------------------------BP1024*/
+/*---------------------------------------------------------------------------BP960*/
+/*---------------------------------------------------------------------------BP896*/
+/*---------------------------------------------------------------------------BP768*/
+/*---------------------------------------------------------------------------BP620*/
+/*---------------------------------------------------------------------------BP480*/

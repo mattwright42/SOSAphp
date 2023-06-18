@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&family=RocknRoll+One&family=Zen+Maru+Gothic:wght@700;900&display=swap');
+@import url("css/basic.css");
+@import url("css/header.css");
+@import url("css/footer.css");
+@import url("css/page.css");
+@import url("css/menu_btn.css");
+@import url("css/menu_blank.css");
+@import url("css/top.css");
+
+@import url("js/slick.css");
+@import url("js/slick-theme.css");
+
+/*
+@import url("css/waku.css");
+@import url("css/br.css");
+@import url("css/page.css");
+@import url("css/cssani.css");
+@import url("js/slick.css");
+@import url("js/slick-theme.css");
+*/

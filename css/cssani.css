@@ -1,0 +1,483 @@
+@charset "UTF-8";
+/* Scss Document */
+/*
+animation-name／名前／
+animation-duration／動く時間／Xs
+animation-timing-function／進行の度合い／ease↓↑↓, ease-in↓↑, ease-out↑↓, ease-in-out↓↑↓, linear→, steps(正数, start または end),  cubic-bezier(x軸の値, y軸の値, x軸の値, y軸の値)
+animation-delay	／始まる時間／Xs
+animation-iteration-count／繰り返し回数／X, infinite（ループ）
+animation-direction／再生方向／normal, reverse, 折り返し→alternate, alternate-reverse
+animation-fill-mode／終了スタイル／none, forwards, backwards, both
+animation-play-state／再生・停止／running , paused
+*/
+.topani1 {
+  transform: scale(2) rotate(45deg);
+  opacity: 0;
+  animation: topani1 0.125s ease-out 0.5s 1 forwards; }
+
+@keyframes topani1 {
+  0% {
+    transform: scale(2) rotate(45deg);
+    opacity: 0; }
+  76% {
+    transform: scale(1) rotate(-4deg);
+    opacity: 1; }
+  84% {
+    transform: scale(1) rotate(3deg);
+    opacity: 1; }
+  92% {
+    transform: scale(1) rotate(-2deg);
+    opacity: 1; }
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1; } }
+.topani2 {
+  transform: translateY(15px);
+  opacity: 0;
+  animation: topani2 1s ease-out 1.5s 1 forwards; }
+
+@keyframes topani2 {
+  0% {
+    transform: translateY(15px);
+    opacity: 0; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+.sup {
+  transform: translateY(30px);
+  opacity: 0; }
+
+.sup.on {
+  transform: translateY(30px);
+  opacity: 0;
+  animation: sup-on 0.5s ease-out 0s 1 forwards; }
+
+@keyframes sup-on {
+  0% {
+    transform: translateY(30px);
+    opacity: 0; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+.sup2 {
+  transform: translateY(25px);
+  opacity: 0; }
+
+.sup2.on {
+  transform: translateY(25px);
+  opacity: 0;
+  animation: sup2-on 0.7s ease-out 0.5s 1 forwards; }
+
+@keyframes sup2-on {
+  0% {
+    transform: translateY(25px);
+    opacity: 0; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+.h_top {
+  transform: scale(0.9) translateY(-25px);
+  opacity: 0; }
+
+.h_top.on {
+  transform: scale(0.9) translateY(-25px);
+  opacity: 0;
+  animation: h_top-on 0.7s ease-out 0s 1 forwards; }
+
+@keyframes h_top-on {
+  0% {
+    transform: scale(0.9) translateY(-25px);
+    opacity: 0; }
+  100% {
+    transform: scale(1) translateY(0px);
+    opacity: 1; } }
+.btn_totop {
+  transform: translateY(50px);
+  opacity: 0; }
+
+.btn_totop.on {
+  transform: translateY(50px);
+  opacity: 0;
+  animation: btn_totop 1s ease-out 1.5s 1 forwards; }
+
+@keyframes btn_totop {
+  0% {
+    transform: translateY(50px);
+    opacity: 0; }
+  100% {
+    transform: translateY(0px);
+    opacity: 1; } }
+.scr_guide::before {
+  animation: scr_guide 3.5s ease-in-out 0s infinite forwards; }
+
+@keyframes scr_guide {
+  0% {
+    background-position: top 0 center;
+    background-size: 0% auto; }
+  15% {
+    background-position: top 0 center;
+    background-size: 100% auto; }
+  50% {
+    background-position: top 85% center;
+    background-size: 100% auto; }
+  85% {
+    background-position: top 85% center;
+    background-size: 100% auto; }
+  100% {
+    background-position: top 85% center;
+    background-size: 0% auto; } }
+.slick-slide {
+  transform: scale(1); }
+
+.slick-active .bg {
+  animation: slick-active 6s ease-out 0s 1 none; }
+
+@keyframes slick-active {
+  0% {
+    transform: scale(1.05); }
+  100% {
+    transform: scale(1); } }
+.slick-active .tx > div > span {
+  opacity: 0; }
+
+.slick-active .tx > div > span:nth-child(1) {
+  animation: slick-tx 1s ease-out 1.50s 1 forwards; }
+.slick-active .tx > div > span:nth-child(2) {
+  animation: slick-tx 1s ease-out 1.65s 1 forwards; }
+.slick-active .tx > div > span:nth-child(3) {
+  animation: slick-tx 1s ease-out 1.80s 1 forwards; }
+.slick-active .tx > div > span:nth-child(4) {
+  animation: slick-tx 1s ease-out 1.95s 1 forwards; }
+.slick-active .tx > div > span:nth-child(5) {
+  animation: slick-tx 1s ease-out 2.10s 1 forwards; }
+.slick-active .tx > div > span:nth-child(6) {
+  animation: slick-tx 1s ease-out 2.25s 1 forwards; }
+.slick-active .tx > div > span:nth-child(7) {
+  animation: slick-tx 1s ease-out 2.40s 1 forwards; }
+.slick-active .tx > div > span:nth-child(8) {
+  animation: slick-tx 1s ease-out 2.55s 1 forwards; }
+.slick-active .tx > div > span:nth-child(9) {
+  animation: slick-tx 1s ease-out 2.70s 1 forwards; }
+.slick-active .tx > div > span:nth-child(10) {
+  animation: slick-tx 1s ease-out 2.85s 1 forwards; }
+
+@keyframes slick-tx {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.slideup {
+  transform: translateY(75px);
+  opacity: 0.5; }
+
+.slideup.slideup_on {
+  transform: translateY(75px);
+  opacity: 0.5;
+  animation: slideup_on 1.5s ease-out 0s 1 forwards; }
+
+@keyframes slideup_on {
+  0% {
+    transform: translateY(75px);
+    opacity: 0.5; }
+  100% {
+    transform: translateY(0px);
+    opacity: 1; } }
+.slideup_on {
+  opacity: 0; }
+  .slideup_on.anion {
+    animation: slideup_on 0.8s ease-in-out 0.2s 1 forwards; }
+
+.ani_g .slideup:nth-of-type(1).slideup_on {
+  animation-delay: 0.0s; }
+.ani_g .slideup:nth-of-type(2).slideup_on {
+  animation-delay: 0.1s; }
+.ani_g .slideup:nth-of-type(3).slideup_on {
+  animation-delay: 0.2s; }
+.ani_g .slideup:nth-of-type(4).slideup_on {
+  animation-delay: 0.3s; }
+.ani_g .slideup:nth-of-type(5).slideup_on {
+  animation-delay: 0.4s; }
+.ani_g .slideup:nth-of-type(6).slideup_on {
+  animation-delay: 0.5s; }
+.ani_g .slideup:nth-of-type(7).slideup_on {
+  animation-delay: 0.6s; }
+.ani_g .slideup:nth-of-type(8).slideup_on {
+  animation-delay: 0.7s; }
+.ani_g .slideup:nth-of-type(9).slideup_on {
+  animation-delay: 0.8s; }
+.ani_g .slideup:nth-of-type(10).slideup_on {
+  animation-delay: 0.9s; }
+.ani_g .slideup:nth-of-type(11).slideup_on {
+  animation-delay: 1.0s; }
+.ani_g .slideup:nth-of-type(12).slideup_on {
+  animation-delay: 1.1s; }
+.ani_g .slideup:nth-of-type(13).slideup_on {
+  animation-delay: 1.2s; }
+.ani_g .slideup:nth-of-type(14).slideup_on {
+  animation-delay: 1.3s; }
+.ani_g .slideup:nth-of-type(15).slideup_on {
+  animation-delay: 1.4s; }
+.ani_g .slideup:nth-of-type(16).slideup_on {
+  animation-delay: 1.5s; }
+.ani_g .slideup:nth-of-type(17).slideup_on {
+  animation-delay: 1.6s; }
+.ani_g .slideup:nth-of-type(18).slideup_on {
+  animation-delay: 1.7s; }
+.ani_g .slideup:nth-of-type(19).slideup_on {
+  animation-delay: 1.8s; }
+.ani_g .slideup:nth-of-type(20).slideup_on {
+  animation-delay: 1.9s; }
+.ani_g .slideup:nth-of-type(21).slideup_on {
+  animation-delay: 2.0s; }
+.ani_g .slideup:nth-of-type(22).slideup_on {
+  animation-delay: 2.1s; }
+.ani_g .slideup:nth-of-type(23).slideup_on {
+  animation-delay: 2.2s; }
+.ani_g .slideup:nth-of-type(24).slideup_on {
+  animation-delay: 2.3s; }
+.ani_g .slideup:nth-of-type(25).slideup_on {
+  animation-delay: 2.4s; }
+
+.ic_eventinfo {
+  opacity: 0;
+  animation: ic_eventinfo 1s ease-in-out 6.5s 1 forwards; }
+
+@keyframes ic_eventinfo {
+  0% {
+    transform: scale(0.5);
+    opacity: 0; }
+  50% {
+    transform: scale(0.5);
+    opacity: 0; }
+  85% {
+    transform: scale(1.05);
+    opacity: 1; }
+  90% {
+    transform: scale(0.97);
+    opacity: 1; }
+  95% {
+    transform: scale(1.01);
+    opacity: 1; }
+  100% {
+    transform: scale(1);
+    opacity: 1; } }
+/**トップスライド系**/
+.tx_top1_01 {
+  opacity: 0;
+  transform: scale(2);
+  animation: tx_top1_01 1s ease-in-out 2.0s 1 forwards; }
+
+@keyframes tx_top1_01 {
+  0% {
+    transform: scale(2);
+    transform: rotate(0deg);
+    opacity: 0;
+    margin: 15px 0 0 0; }
+  100% {
+    transform: scale(1);
+    transform: rotate(0deg);
+    opacity: 1;
+    margin: 0; } }
+.tx_top1_02 {
+  opacity: 0;
+  animation: tx_top1_02 1s ease-in-out 2.33s 1 forwards; }
+
+@keyframes tx_top1_02 {
+  0% {
+    transform: scale(0.1);
+    transform: rotate(0deg);
+    opacity: 0;
+    margin: 15px 0 0 0; }
+  100% {
+    transform: scale(1);
+    transform: rotate(0deg);
+    opacity: 1;
+    margin: 0; } }
+.tx_top1_03 {
+  opacity: 0;
+  animation: tx_top1_03 1s ease-in-out 2.66s 1 forwards; }
+
+@keyframes tx_top1_03 {
+  0% {
+    transform: scale(0.1);
+    transform: rotate(0deg);
+    opacity: 0;
+    margin: 15px 0 0 0; }
+  100% {
+    transform: scale(1);
+    transform: rotate(0deg);
+    opacity: 1;
+    margin: 0; } }
+.tx_top1_04 {
+  opacity: 0;
+  animation: tx_top1_04 1s ease-in-out 4.0s 1 forwards; }
+
+@keyframes tx_top1_04 {
+  0% {
+    transform: scale(0.1);
+    transform: rotate(0deg);
+    opacity: 0;
+    margin: 15px 0 0 0; }
+  100% {
+    transform: scale(1);
+    transform: rotate(0deg);
+    opacity: 1;
+    margin: 0; } }
+.tx_top1_05 {
+  opacity: 0;
+  animation: tx_top1_05 1s ease-in-out 4.33s 1 forwards; }
+
+@keyframes tx_top1_05 {
+  0% {
+    transform: scale(0.1);
+    transform: rotate(0deg);
+    opacity: 0;
+    margin: 15px 0 0 0; }
+  100% {
+    transform: scale(1);
+    transform: rotate(0deg);
+    opacity: 1;
+    margin: 0; } }
+.tx_top1_06 {
+  opacity: 0;
+  animation: tx_top1_06 1s ease-in-out 4.66s 1 forwards; }
+
+@keyframes tx_top1_06 {
+  0% {
+    transform: scale(0.1);
+    transform: rotate(0deg);
+    opacity: 0;
+    margin: 15px 0 0 0; }
+  100% {
+    transform: scale(1);
+    transform: rotate(0deg);
+    opacity: 1;
+    margin: 0; } }
+.tx_top1_07 {
+  opacity: 0;
+  animation: tx_top1_07 1s ease-in-out 5.0s 1 forwards; }
+
+@keyframes tx_top1_07 {
+  0% {
+    transform: scale(0.1);
+    transform: rotate(0deg);
+    opacity: 0;
+    margin: 15px 0 0 0; }
+  100% {
+    transform: scale(1);
+    transform: rotate(0deg);
+    opacity: 1;
+    margin: 0; } }
+.tx_top1_08 {
+  opacity: 0;
+  animation: tx_top1_08 1s ease-in-out 5.33s 1 forwards; }
+
+@keyframes tx_top1_08 {
+  0% {
+    transform: scale(0.1);
+    transform: rotate(0deg);
+    opacity: 0;
+    margin: 15px 0 0 0; }
+  100% {
+    transform: scale(1);
+    transform: rotate(0deg);
+    opacity: 1;
+    margin: 0; } }
+.tx_top1 {
+  animation: tx_top1 10s ease-in-out 5s 1 forwards; }
+
+@keyframes tx_top1 {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1.05); } }
+/**タイトル回り**/
+.tit01 strong {
+  margin: -25px 0 7px 0;
+  padding: 0 0 25px;
+  opacity: 0; }
+.tit01 span {
+  padding: 25px 0 0 0;
+  margin: 0 0 -25px 0;
+  opacity: 0; }
+.tit01.tit01ani strong {
+  margin: -25px 0 7px 0;
+  padding: 0 0 25px;
+  opacity: 0;
+  animation: tit01anistrong 1s ease-in-out 0.2s 1 forwards; }
+.tit01.tit01ani span {
+  padding: 25px 0 0 0;
+  margin: 0 0 -25px 0;
+  opacity: 0;
+  animation: tit01anispan 1s ease-in-out 0.2s 1 forwards; }
+
+@keyframes tit01anistrong {
+  0% {
+    opacity: 0;
+    margin: -25px 0 7px 0;
+    padding: 0 0 25px; }
+  100% {
+    opacity: 1;
+    margin: 0 0 7px 0;
+    padding: 0 0 0 0; } }
+@keyframes tit01anispan {
+  0% {
+    opacity: 0;
+    padding: 25px 0 0 0;
+    margin: 0 0 -25px 0; }
+  100% {
+    opacity: 1;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0; } }
+/**fadein**/
+.fadein {
+  opacity: 0; }
+
+.fadein.fadeined {
+  opacity: 0;
+  animation: fadeined 0.75s ease-in-out 0.2s 1 forwards; }
+
+@keyframes fadeined {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.fadein35 {
+  opacity: 0;
+  margin: 50px 0 0 0; }
+
+.fadein35.fadein35ed {
+  opacity: 0;
+  margin: 50px 0 0 0;
+  animation: fadein35ed 0.8s ease-in-out 0.2s 1 forwards; }
+
+@keyframes fadein35ed {
+  0% {
+    opacity: 0;
+    margin: 50px 0 0 0; }
+  100% {
+    opacity: 1;
+    margin: 0px 0 0 0; } }
+/*---------------------------------------------------------------------------BP1920*/
+/*---------------------------------------------------------------------------BP1600*/
+/*---------------------------------------------------------------------------BP1280*/
+/*---------------------------------------------------------------------------BP1024*/
+/*---------------------------------------------------------------------------BP960*/
+/*---------------------------------------------------------------------------BP896*/
+@media (max-width: 896px) {
+  /**fadeinservice版**/
+  .fadeinsv {
+    opacity: 0; }
+
+  .fadeinsv.fadeinsved {
+    opacity: 0;
+    animation: fadeinsved 0.75s ease-in-out 0s 1 forwards; }
+
+  @keyframes fadeinsved {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } } }
+/*---------------------------------------------------------------------------BP768*/
+/*---------------------------------------------------------------------------BP620*/
+/*---------------------------------------------------------------------------BP480*/
